@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 let str = "poule";
 console.log(str);
 // commande terminal --->  tsc script.ts va le compiler
@@ -8,4 +6,5 @@ console.log(str);
 function foo() {
     return "test";
 }
+export {};
 //# sourceMappingURL=script.js.map
