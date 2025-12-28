@@ -18,25 +18,24 @@ foo("babylone");
 
 type mixedNumberString = number | string;
 
-const foo2 = (param: mixedNumberString){
-  console.log(param)
-}
+const foo2 = (param: mixedNumberString) => {
+  console.log(param);
+};
 
-foo2(122)
-foo2("dzldkf")
+foo2(122);
+foo2("dzldkf");
 // foo2(true)    ----> souligné en rouge car il n'est pas dans le type personnalisé
-
 
 type element = {
   x: number;
   y: number;
   id: number | string;
-}
+};
 
-const button : element ={
+const button: element = {
   x: 200,
   y: 9999,
-  id: "uy987iuh987897"
-} 
+  id: "uy987iuh987897",
+};
 
 console.log(button);

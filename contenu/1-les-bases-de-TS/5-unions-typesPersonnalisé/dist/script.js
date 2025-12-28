@@ -17,7 +17,7 @@ foo2("dzldkf");
 const button = {
     x: 200,
     y: 9999,
-    id: "uy987iuh987897"
+    id: "uy987iuh987897",
 };
 console.log(button);
 export {};
